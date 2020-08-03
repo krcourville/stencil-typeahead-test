@@ -29,7 +29,7 @@ export class GoogleMapsService {
     this.http = axios.create({
       baseURL: 'https://maps.googleapis.com/maps/api'
       // params: {
-      //   key: 'AIzaSyAGQUXFQnjlzHPDGWY5n9OZnmve7J8JhOw'
+      //   key: 'api_key_goes here'
       // }
     });
   }
